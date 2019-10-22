@@ -10,8 +10,9 @@ var logger = require('morgan');
 /**
  * ROUTERS
  */
-var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
+//ImportingRouters
+
+
 
 /**
  * APP
@@ -35,8 +36,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 /**
  * ROUTES
  */
-app.use('/', indexRouter);
-app.use('/users', usersRouter);
+//AppUseRouters
+
+
 
 /**
  * 404
